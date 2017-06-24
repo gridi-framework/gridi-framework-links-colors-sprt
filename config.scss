@@ -1,0 +1,8 @@
+$a-colors-support-parser: (
+    color: color,
+    hover-color: 'hover-color'
+) !default;
+
+
+$a-colors-support-extra-colors-palette: () !default;
+$a-colors-support-skip-colors-palette: null !default;
