@@ -1,6 +1,16 @@
 $a-colors-support-parser: (
+    outline-color: null,
     color: color,
-    hover-color: 'hover-color'
+    link-outline-color: null,
+    link-color: null,
+    visited-outline-color: null,
+    visited-color: null,
+    active-outline-color: null,
+    active-color: null,
+    hover-outline-color: null,
+    hover-color: 'hover-color',
+    focus-outline-color: null,
+    focus-color: 'hover-color'
 ) !default;
 
 

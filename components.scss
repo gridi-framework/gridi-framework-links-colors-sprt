@@ -1,6 +1,6 @@
 @each $palette-color-prefix, $palette-color-variables in get-colors-palette($a-colors-support-extra-colors-palette, $a-colors-support-skip-colors-palette) {
     .#{$colors-class-prefix}-#{$palette-color-prefix} a,
     a.#{$colors-class-prefix}-#{$palette-color-prefix} {
-        @include include-links-colors(parse-map($a-colors-support-parser, $palette-color-variables));
+        @include links-colors-propertys(parse-map($a-colors-support-parser, $palette-color-variables));
     }
 }
